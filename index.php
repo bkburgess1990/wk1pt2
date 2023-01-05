@@ -9,5 +9,19 @@
 </head>
 <body>
     <h1>Pick a color</h1>
+
+    <form method="post" action="confirm.php">
+        <label><input type="radio" name="fav" value="red">Red</label><br>
+        <label><input type="radio" name="fav" value="blue">Blue</label><br>
+        <label><input type="radio" name="fav" value="yellow">Yellow</label><br>
+        <label><input type="radio" name="fav" value="green">Green</label><br>
+        <button type="submit" value="submit">Send it</button>
+    </form>
 </body>
 </html>
+
+
+<?php
+
+?>
+
